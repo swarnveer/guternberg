@@ -2,9 +2,11 @@
 This API supports pagination so you can make requests as:
 
 #This will give json with page 1 as default with upto 25 results
+
 http://swarnveer.pythonanywhere.com/api/v1/books?topic=fiction
 
 #In the below request url we are fetching the data from the 45th page
+
 http://swarnveer.pythonanywhere.com/api/v1/books/45?topic=fiction
 
 Below arguments are supported:
