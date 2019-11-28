@@ -10,12 +10,7 @@ http://swarnveer.pythonanywhere.com/api/v1/books?topic=fiction
 http://swarnveer.pythonanywhere.com/api/v1/books/45?topic=fiction
 
 Below arguments are supported:
-book_id 
-lang 
-mime_type  
-topic 
-author 
-title
+book_id,lang,mime_type,topic,author,title
 
 Each argument supports multiple value such as request can be like ?book_id=1,2,3
 
